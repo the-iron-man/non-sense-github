@@ -10,5 +10,5 @@ for i in range(0,n):
         f.write(str(datetime.now()))
         os.rename(filename,filename)
         os.system('git add .')
-        os.system('git commit -m "added nonsense file"')
+        os.system('git commit -m "Nonsense commit by Hack bot"')
         time.sleep(1)
