@@ -11,4 +11,4 @@ for i in range(0,n):
         os.rename(filename,filename)
         os.system('git add .')
         os.system('git commit -m "added nonsense file"')
-        time.sleep(0.1)
+        time.sleep(1)
