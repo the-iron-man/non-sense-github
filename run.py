@@ -20,4 +20,4 @@ for dd in range(0,30):
             os.system('git add .')
             os.system('git commit -m "Nonsense commit by Hack bot"')
             time.sleep(1)
-        os.system('date "%y%m%d" -s %s%s%s'%(yy,mm,dd))
+        os.system('date +\%y\%m\%d -s %s%s%s'%(yy,mm,dd))
